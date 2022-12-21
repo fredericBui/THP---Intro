@@ -1,0 +1,14 @@
+AllCops:
+  DisplayStyleGuide: true
+  DisplayCopNames: true
+  Exclude:
+    - "db/schema.rb"
+    - "vendor/**/*"
+    - "config/environments/*.rb"
+    - "bin/*"
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*.rb"
+    - "Guardfile"
+    - "vendor/bundle"
